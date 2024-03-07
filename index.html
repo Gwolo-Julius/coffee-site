@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Coffee Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- ===== HEADER SECTION ==== -->
+    <header class="header">
+      <div class="container header__nav">
+        <a href="#">
+          <div class="logo">
+            <img src="images/coffee-logo.png" alt="" />
+            Coffetto
+          </div>
+        </a>
+        <nav class="nav">
+          <ul class="nav__links">
+            <li>
+              <a href="#">
+                <img src="images/ri_home-5-fill.png" alt="" class="icons" />
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about__section">
+                <img src="images/ri_award-fill.png" alt="" class="icons" />
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#steps">
+                <img src="images/ri_compass-3-fill.png" alt="" class="icons" />
+                Steps
+              </a>
+            </li>
+            <li>
+              <a href="#testimonial">
+                <img src="images/ri_message-3-fill.png" alt="" class="icons" />
+                Testimonial
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== MOBILE NAV SECTION ==== -->
+
+    <ul class="nav__link">
+      <li>
+        <a href="#">
+          <img src="images/ri_home-5-fill.png" alt="" class="icons" />
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#about__section">
+          <img src="images/ri_award-fill.png" alt="" class="icons" />
+          About
+        </a>
+      </li>
+      <li>
+        <a href="#steps">
+          <img src="images/ri_compass-3-fill.png" alt="" class="icons" />
+          Steps
+        </a>
+      </li>
+      <li>
+        <a href="#testimonial">
+          <img src="images/ri_message-3-fill.png" alt="" class="icons" />
+          Testimonial
+        </a>
+      </li>
+    </ul>
+
+    <!-- ===== HERO SECTION ==== -->
+    <section class="hero__section">
+      <div class="container hero__container">
+        <div class="hero__left">
+          <img src="images/home-coffee.png" alt="" />
+        </div>
+        <div class="hero__right">
+          <span class="intro__text">EXCEPTIONAL QUALITY</span>
+          <h1>It's time for a <br />good coffee</h1>
+          <img
+            src="images/home-coffee-title 1.png"
+            alt=""
+            class="coffee__img"
+          />
+
+          <p>
+            Each select coffee bean reflects our commitment <br />
+            to Peruvian coffee growers, who bring the best <br />
+            select coffee to your table.
+          </p>
+
+          <a href="#steps" class="get__started"
+            >Get Started <i class="ri-arrow-right-s-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCT SECTION ==== -->
+    <section class="products">
+      <div class="container product__container">
+        <div class="product__left">
+          <a href="#footer" class="product__left__button">
+            Scroll Down <i class="ri-arrow-down-s-line"></i>
+          </a>
+          <p>
+            We strive to form deep partnerships with farmers from all over the
+            world to create perspective together and form healthy working
+            relationships built on trust and respect.
+          </p>
+        </div>
+        <div class="product__right">
+          <div class="card">
+            <img src="images/product-coffee-1.png" alt="" />
+            <div class="card__info">
+              <h4>Classic Coffee</h4>
+              <p>$17.90</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/product-coffee-2.png" alt="" />
+            <div class="card__info">
+              <h4>Black coffee</h4>
+              <p>$24.90</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/product-coffee-3.png" alt="" />
+            <div class="card__info">
+              <h4>Strong coffee</h4>
+              <p>$32.90</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ==== -->
+    <section class="about__section" id="about__section">
+      <div class="container about__container">
+        <div class="about__left">
+          <img src="images/about-coffee.png" alt="" />
+        </div>
+        <div class="about__right">
+          <h2>Our History</h2>
+          <p>
+            We make and grow the best coffee in Peru, accompanying families
+            since 1930, with professional workers who harvest, collect and
+            select the coffee with quality work, thus providing exquisite coffee
+            to enjoy together as a family.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STEPS SECTION ==== -->
+
+    <section class="steps" id="steps">
+      <div class="container step__container">
+        <div class="steps__heading">
+          <h2>Steps of manufacturing our products</h2>
+        </div>
+        <div class="steps__card">
+          <div class="steps__cards">
+            <div class="step__img">
+              <img src="images/Steps circle.png" alt="" />
+            </div>
+            <p>
+              Harvest occurs annually when the coffee beans reach maturity and
+              are collected for processing.
+            </p>
+          </div>
+
+          <div class="steps__cards">
+            <p>
+              The beans are dried using a wet or dry technique, depending on the
+              taste we want to obtain.
+            </p>
+            <div class="step__img">
+              <img src="images/Steps circle (1).png" alt="" />
+            </div>
+          </div>
+
+          <div class="steps__cards">
+            <div class="step__img">
+              <img src="images/Steps circle (2).png" alt="" />
+            </div>
+            <p>
+              The coffee is roasted and acquires its flavor by processing the
+              grain in ovens.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIAL SECTION ==== -->
+
+    <div class="section__testimonial" id="testimonial">
+      <div class="container testimonial__container">
+        <div class="testimonial__card__left">
+          <h2>
+            Coffee is the best drink in the morning, it keeps you focused.
+          </h2>
+          <p class="author">Juli Doe</p>
+        </div>
+        <div class="testimonial__card__right">
+          <img src="images/testimonial-coffee.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER SECTION ==== -->
+    <footer class="footer" id="footer">
+      <div class="container container__footer">
+        <div class="upper__container">
+          <div class="footer__left">
+            <a href="#">
+              <img src="images/Footer logo.png" alt="" />
+            </a>
+            <h2>Sign up for our newsletter</h2>
+          </div>
+          <div class="footer__right">
+            <form action="/">
+              <input type="text" placeholder="Enter e-mail address" />
+              <button type="submit">
+                Subscribe <i class="ri-arrow-right-s-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="lower__container">
+          <div class="social__wrapper">
+            <div class="social">
+              <a href="#" class="social__links">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="#" class="social__links">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="#" class="social__links">
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+            <p>&copy; 2024 Cafe. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
